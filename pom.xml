@@ -20,16 +20,7 @@
     </dependency>
   </dependencies>
 
-  <distributionManagement>
-    <repository>
-        <id>jfrog</id>
-        <name>dwarak-releases-local</name>
-        <url>http://127.0.0.1:8081/artifactory/maven-practice</url>
-    </repository>
-    <snapshotRepository>
-        <id>jfrog</id>
-        <name>dwarak-snapshots-local</name>
-        <url>http://127.0.0.1:8081/artifactory/maven-practice</url>
-    </snapshotRepository>
-  </distributionManagement>
+  <build>
+    <finalName>my_app</finalName>
+  </build>
 </project>
